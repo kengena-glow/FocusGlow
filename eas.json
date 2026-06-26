@@ -1,6 +1,6 @@
 {
   "cli": {
-    "version": "20.1.0",
+    "version": ">=20.1.0",
     "appVersionSource": "local",
     "promptToConfigurePushNotifications": false
   },
@@ -41,12 +41,6 @@
     }
   },
   "submit": {
-    "production": {
-      "ios": {
-        "ascApiKeyPath": "./AuthKey_2BJT6V32DG.p8",
-        "ascApiKeyId": "2BJT6V32DG",
-        "ascApiKeyIssuerId": "ac3e09ad-ab4f-40f0-a3e4-6679d475f0d7"
-      }
-    }
+    "production": {}
   }
 }
