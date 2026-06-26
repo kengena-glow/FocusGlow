@@ -65,3 +65,6 @@ android_backup_*/
 assets/*OLD*
 assets/*transparent*
 firebase/google-services.json
+firebase/GoogleService-Info.plist
+/android
+/ios
