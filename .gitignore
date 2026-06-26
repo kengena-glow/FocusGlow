@@ -1,0 +1,67 @@
+# Learn more: https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependencies
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Android
+android/.gradle/
+android/build/
+*.keystore
+keystore.properties
+
+# iOS
+ios/build/
+ios/Pods/
+*.xcworkspace
+*.xcodeproj/project.xcworkspace/
+
+# Native / Kotlin / Java
+.kotlin/
+*.orig.*
+
+# Certificates / keys / signing
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Metro bundler
+.metro-health-check*
+
+# Logs / debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.log
+
+# macOS / Windows artifacts
+.DS_Store
+Thumbs.db
+
+# Local environment
+.env*
+.env*.local
+
+# TypeScript build info
+*.tsbuildinfo
+
+# IDEs and editors
+.idea/
+.vscode/
+
+# Local backup files
+App - Copy*.js
+app.config - Copy*.js
+android_backup_*/
+assets/*OLD*
+assets/*transparent*
+firebase/google-services.json

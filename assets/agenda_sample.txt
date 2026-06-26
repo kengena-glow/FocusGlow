@@ -1,0 +1,6 @@
+index,title,duration
+1,Welcome,1
+2,Goals and Objectives,2
+3,Team Discussion,3
+4,Action Items,2
+5,Wrap-Up,1

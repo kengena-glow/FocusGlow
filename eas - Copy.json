@@ -1,0 +1,53 @@
+{
+  "cli": {
+    "version": "16.32.0",
+    "appVersionSource": "remote",
+    "promptToConfigurePushNotifications": false
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": false,
+        "image": "macos-sequoia-15.6-xcode-26.0"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": false,
+        "image": "macos-sequoia-15.6-xcode-26.0"
+      }
+    },
+    "production": {
+      "env": {
+        "EAS_BUILD_DISABLE_MAVEN_CACHE": "1"
+      },
+      "distribution": "store",
+      "autoIncrement": true,
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "ios": {
+        "simulator": false,
+        "image": "macos-sequoia-15.6-xcode-26.0"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "ascApiKeyPath": "./AuthKey_2BJT6V32DG.p8",
+        "ascApiKeyId": "2BJT6V32DG",
+        "ascApiKeyIssuerId": "ac3e09ad-ab4f-40f0-a3e4-6679d475f0d7"
+      }
+    }
+  }
+}
